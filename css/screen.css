@@ -1,0 +1,41 @@
+@import url("reset.css");
+
+body {
+	text-align: center;
+	display: block;
+	background: #E1DFBC url("../images/background.jpg") repeat-x;
+	min-height: 1300px;
+}
+
+#container {
+	text-align: center;
+	margin: 30px auto;
+}
+
+#phone {
+	margin: 5px;
+	font-size: 125%;
+	font-style: normal;
+}
+.separator {
+	width: 560px;
+	margin: 15px 0;
+}
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #043767;
+	background: transparent;
+}
+
+a:visited {
+	color: #043767;
+	background: transparent;
+}
+
+a[href^="tel:"]:before {
+    content: "\260E";
+    margin-right: 0.5em;
+}
